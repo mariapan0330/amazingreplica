@@ -16,7 +16,7 @@ body {
 
 
 a {
-    color:rgb(50, 133, 206);
+    color:rgb(27, 138, 234);
 }
 
 img {
@@ -55,7 +55,7 @@ input[placeholder] {
 
 #continue {
     border: 1px solid rgb(108, 93, 49);
-    box-shadow: 0px 1px 3px gray;
+    box-shadow: 0px 1px 3px lightgray;
     color:black;
     background-color: rgb(253, 188, 36);
     padding: 7px;
@@ -71,13 +71,21 @@ input[placeholder] {
     /* border:2px solid red; */
 }
 
+#create fieldset {
+    width: 380px;
+    text-align:center;
+    border: 5px solid white;
+    border-top:2px solid lightgray;
+}
+
 #create-button {
     color:black;
-    background-color: lightgray;
+    background-color: rgb(233, 232, 232);
     border: 1px solid rgb(170, 168, 168);
+    box-shadow: 0px 1px 2px lightgray;
     border-radius:2px;
-    padding: 5px;
-    margin: 0 10px 50px 10px;
+    padding: 7px;
+    margin: 10px 0px 50px 0px;
 }
 
 footer {
